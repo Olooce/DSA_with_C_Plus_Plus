@@ -11,7 +11,7 @@
 # =============================================================================
 
 # =============================================================================
-# Project: Project
+# Project: DSA___C___
 # Configurations: Debug
 # =============================================================================
 
@@ -40,6 +40,49 @@ include CMakeFiles/rules.ninja
 # Logical path to working directory; prefix for absolute paths.
 
 cmake_ninja_workdir = /home/oloo/CLionProjects/DSA-_-C---/cmake-build-debug/
+# =============================================================================
+# Object build statements for EXECUTABLE target DSA___C___
+
+
+#############################################
+# Order-only phony target for DSA___C___
+
+build cmake_object_order_depends_target_DSA___C___: phony || .
+
+build CMakeFiles/DSA___C___.dir/DSA.cpp.o: CXX_COMPILER__DSA___C____unscanned_Debug /home/oloo/CLionProjects/DSA-_-C---/DSA.cpp || cmake_object_order_depends_target_DSA___C___
+  DEP_FILE = CMakeFiles/DSA___C___.dir/DSA.cpp.o.d
+  FLAGS = -g -std=gnu++14 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/DSA___C___.dir
+  OBJECT_FILE_DIR = CMakeFiles/DSA___C___.dir
+
+build CMakeFiles/DSA___C___.dir/algorithms/binary_search.cpp.o: CXX_COMPILER__DSA___C____unscanned_Debug /home/oloo/CLionProjects/DSA-_-C---/algorithms/binary_search.cpp || cmake_object_order_depends_target_DSA___C___
+  DEP_FILE = CMakeFiles/DSA___C___.dir/algorithms/binary_search.cpp.o.d
+  FLAGS = -g -std=gnu++14 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/DSA___C___.dir
+  OBJECT_FILE_DIR = CMakeFiles/DSA___C___.dir/algorithms
+
+build CMakeFiles/DSA___C___.dir/algorithms/hash_table.cpp.o: CXX_COMPILER__DSA___C____unscanned_Debug /home/oloo/CLionProjects/DSA-_-C---/algorithms/hash_table.cpp || cmake_object_order_depends_target_DSA___C___
+  DEP_FILE = CMakeFiles/DSA___C___.dir/algorithms/hash_table.cpp.o.d
+  FLAGS = -g -std=gnu++14 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/DSA___C___.dir
+  OBJECT_FILE_DIR = CMakeFiles/DSA___C___.dir/algorithms
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target DSA___C___
+
+
+#############################################
+# Link the executable DSA___C___
+
+build DSA___C___: CXX_EXECUTABLE_LINKER__DSA___C____Debug CMakeFiles/DSA___C___.dir/DSA.cpp.o CMakeFiles/DSA___C___.dir/algorithms/binary_search.cpp.o CMakeFiles/DSA___C___.dir/algorithms/hash_table.cpp.o
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles/DSA___C___.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = DSA___C___
+  TARGET_PDB = DSA___C___.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -74,12 +117,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 #############################################
 # Folder: /home/oloo/CLionProjects/DSA-_-C---/cmake-build-debug
 
-build all: phony
-
-# =============================================================================
-# Unknown Build Time Dependencies.
-# Tell Ninja that they may appear as side effects of build rules
-# otherwise ordered by order-only dependencies.
+build all: phony DSA___C___
 
 # =============================================================================
 # Built-in targets
