@@ -4,4 +4,7 @@ project(DSA___C___)
 set(CMAKE_CXX_STANDARD 14)
 
 add_executable(DSA___C___
-    helloWorld.cpp)
+    DSA.cpp
+        algorithms/binary_search.cpp
+        algorithms/binary_search.cpp
+        algorithms/hash_table.cpp)

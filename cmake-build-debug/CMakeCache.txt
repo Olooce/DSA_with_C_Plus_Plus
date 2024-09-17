@@ -224,6 +224,15 @@ DSA___C____IS_TOP_LEVEL:STATIC=ON
 //Value Computed by CMake
 DSA___C____SOURCE_DIR:STATIC=/home/oloo/CLionProjects/DSA-_-C---
 
+//Value Computed by CMake
+Project_BINARY_DIR:STATIC=/home/oloo/CLionProjects/DSA-_-C---/cmake-build-debug
+
+//Value Computed by CMake
+Project_IS_TOP_LEVEL:STATIC=ON
+
+//Value Computed by CMake
+Project_SOURCE_DIR:STATIC=/home/oloo/CLionProjects/DSA-_-C---
+
 
 ########################
 # INTERNAL cache entries

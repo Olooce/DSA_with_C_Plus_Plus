@@ -1,3 +1,2 @@
-/home/oloo/CLionProjects/DSA-_-C---/cmake-build-debug/CMakeFiles/DSA___C___.dir
 /home/oloo/CLionProjects/DSA-_-C---/cmake-build-debug/CMakeFiles/edit_cache.dir
 /home/oloo/CLionProjects/DSA-_-C---/cmake-build-debug/CMakeFiles/rebuild_cache.dir
