@@ -7,4 +7,5 @@ add_executable(DSA___C___
     DSA.cpp
         algorithms/binary_search.cpp
         algorithms/binary_search.cpp
-        algorithms/hash_table.cpp)
+        algorithms/hash_table.cpp
+)
